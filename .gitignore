@@ -1,0 +1,11 @@
+# Ignore entire Elasticsearch folder and archive
+elasticsearch-8.17.6/
+elasticsearch-8.17.6-darwin-x86_64.tar.gz
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore any temp files
+*.tmp
+*.swp
