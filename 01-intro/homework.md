@@ -8,6 +8,17 @@ In this homework, we'll learn more about search and use Elastic Search for pract
 ## Q1. Running Elastic 
 
 Run Elastic Search 8.17.6, and get the cluster information. If you run it on localhost, this is how you do it:
+```css
+[Запрос пользователя]
+        ↓
+[Поиск в Elasticsearch (по вектору или ключевым словам)]
+        ↓
+[Находятся релевантные документы]
+        ↓
+[LLM использует их как контекст]
+        ↓
+[Генерируется осмысленный и точный ответ]
+```
 
 ```bash
 curl localhost:9200
