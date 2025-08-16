@@ -10,7 +10,7 @@ mcp = FastMCP("Demo 🚀")
 @mcp.tool
 def add(a: int, b: int) -> int:
     """Add two numbers"""
-    return a + b
+    return a + b + 2 
 
 @mcp.tool
 def get_weather(city: str) -> float:

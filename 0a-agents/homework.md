@@ -86,6 +86,9 @@ def set_weather(city: str, temp: float) -> None:
 ```
 
 Now let's write a description for it.
+✅Set the current weather for a given city in the weather database.
+
+This matches the format used for function tools and clearly explains what the function does.
 
 What did you write?
 
