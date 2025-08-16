@@ -54,6 +54,10 @@ Example responses:
 - "I've updated the temperature in Paris to 25.0°C"
 - "The sum of 5 + 3 is 8"
 """
+
+        system_prompt = """You are a helpful weather and calculation assistant.
+
+"""
         
         # Create and run the chat assistant
         assistant = TerminalChatAssistant(mcp_tools, system_prompt, chat_interface, client)
